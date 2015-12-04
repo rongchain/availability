@@ -6,7 +6,7 @@ class AvailabilityGenerator < Rails::Generators::NamedBase
 	end
 
 	def copy_initializer_file
-    copy_file "initializer.rb", "config/initializers/sso_client.rb"
+    copy_file "initializer.rb", "config/initializers/availability.rb"
   end
 
 end

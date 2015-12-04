@@ -27,3 +27,4 @@ visit `http://localhost:/availability/database` to check database availability
 
 
 This project rocks and uses MIT-LICENSE.
+
