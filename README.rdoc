@@ -1,3 +1,8 @@
 = Availability
 
+This gem provides availability check for your server
+
+```ruby
+```
+
 This project rocks and uses MIT-LICENSE.

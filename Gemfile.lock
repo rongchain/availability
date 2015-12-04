@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     availability (0.0.1)
-      rails (~> 4.2.5)
+      rails
 
 GEM
   remote: https://rubygems.org/
@@ -126,3 +126,6 @@ DEPENDENCIES
   pry-rails
   spring
   sqlite3
+
+BUNDLED WITH
+   1.10.6
