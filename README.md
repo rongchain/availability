@@ -10,6 +10,10 @@ This gem provides availability check for your server
 #### Configure
 run `rails g availability install`
 
+this generator generate a initializers file: `config/initializers/availability.rb` 
+
+and add `mount Availability::Engine => '/availability'` to `config/routes.rb`
+
 Then change the HTTP Basic Authentication `username` and `password` in `config/initializers/availability.rb`
 
 ```ruby
